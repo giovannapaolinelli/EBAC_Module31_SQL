@@ -1,0 +1,1 @@
+db.biblioteca.find({ $and: [{status:{$exists: false}, pageCount: {$lt: 300}}]}).count()

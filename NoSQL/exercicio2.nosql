@@ -1,0 +1,1 @@
+db.biblioteca.find({title: {$regex: /MongoDB|SQL Server/}}, {title: 1})

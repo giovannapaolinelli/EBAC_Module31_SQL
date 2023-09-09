@@ -1,0 +1,1 @@
+db.biblioteca.find({isbn: {$regex: /^18/}}, {title:1, isbn:1})
